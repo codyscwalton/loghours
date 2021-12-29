@@ -1,0 +1,178 @@
+{
+  "id": "603ce09a-686e-4465-95e2-2793c0894b71",
+  "version": "2.0",
+  "name": "loghours",
+  "url": "https://subsplash.bamboohr.com",
+  "tests": [{
+    "id": "76c7d7a6-f30c-47f7-a6e4-cecdc5bf5a6c",
+    "name": "Enter Hours",
+    "commands": [{
+      "id": "5dcc95c9-d882-4374-8750-2ee5445fe939",
+      "comment": "",
+      "command": "open",
+      "target": "/login.php?r=%2Fhome%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15646a1f-b821-478f-9bec-522eab400e7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fab-Button__text",
+      "targets": [
+        ["css=.fab-Button__text", "css:finder"],
+        ["xpath=//div[@id='googleSSO']/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in with Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c944b7-7572-4bff-a73d-16553f2ae57f",
+      "comment": "",
+      "command": "type",
+      "target": "name=identifier",
+      "targets": [],
+      "value": "cody.walton@subsplash.com"
+    }, {
+      "id": "492729fe-8d47-4437-82e1-077e68365faf",
+      "comment": "",
+      "command": "click",
+      "target": "id=identifierNext",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6faa5751-fb12-4ee1-99f2-dc962a88ed89",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27c38f7c-46f2-4736-aea8-f4eb8c2cf131",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [],
+      "value": "Delight2020"
+    }, {
+      "id": "c9806f92-a9b2-4d29-a452-c3ac2295b4a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordNext",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "377d0109-9e0c-476b-ab4b-360aada7cbc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss-k39",
+      "targets": [
+        ["css=.jss-k39", "css:finder"],
+        ["xpath=//div[@id='TIME_TRACKING']/div/div/button/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81dd3484-ac78-44ea-89cf-06d77947e975",
+      "comment": "",
+      "command": "type",
+      "target": "id=clockField2",
+      "targets": [
+        ["id=clockField2", "id"],
+        ["css=#clockField2", "css:finder"],
+        ["xpath=//input[@id='clockField2']", "xpath:attributes"],
+        ["xpath=//div[@id='fabricModalContent']/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "8:00"
+    }, {
+      "id": "d8ce82be-891f-44ea-9656-d03899fe1bbc",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='fabricModalContent']/div/form/div/div/div[2]/div/input",
+      "targets": [
+        ["id=clockField15", "id"],
+        ["css=#clockField15", "css:finder"],
+        ["xpath=//input[@id='clockField15']", "xpath:attributes"],
+        ["xpath=//div[@id='fabricModalContent']/div/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12:00"
+    }, {
+      "id": "75a116a3-0cb5-44c4-94fa-fe57428e939b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=+ Add Entry",
+      "targets": [
+        ["linkText=+ Add Entry", "linkText"],
+        ["css=.AddEditEntry__addEntryLink > a", "css:finder"],
+        ["xpath=//div[@id='fabricModalContent']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'+ Add Entry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3914156-e109-4c86-acef-94605fd3ef4e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='fabricModalContent']/div/form/div[2]/div/div/div/input",
+      "targets": [
+        ["id=clockField34", "id"],
+        ["css=#clockField34", "css:finder"],
+        ["xpath=//input[@id='clockField34']", "xpath:attributes"],
+        ["xpath=//div[@id='fabricModalContent']/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12:30"
+    }, {
+      "id": "6454846f-5d4f-49aa-80d7-d566736e8dcb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='fabricModalContent']/div/form/div[2]/div/div/div/div/div/div/div/div[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f31c93c-0aa1-4578-beb7-7ceab70c9dc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) .fab-MenuOption:nth-child(2) .fab-MenuOption__row",
+      "targets": [
+        ["css=div:nth-child(30) .fab-MenuOption:nth-child(2) .fab-MenuOption__row", "css:finder"],
+        ["xpath=//div[16]/div/div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15da2fd7-f7a8-4d4c-a93a-986349fa7306",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='fabricModalContent']/div/form/div[2]/div/div[2]/div/input",
+      "targets": [
+        ["id=clockField63", "id"],
+        ["css=#clockField63", "css:finder"],
+        ["xpath=//input[@id='clockField63']", "xpath:attributes"],
+        ["xpath=//div[@id='fabricModalContent']/div/form/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "4:30"
+    }, {
+      "id": "074a8d64-582f-44b9-85ee-ba25782943d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-contained .jss-y41",
+      "targets": [
+        ["css=.MuiButton-contained .jss-y41", "css:finder"],
+        ["xpath=//div[3]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6e2eb558-8362-4f21-b637-faf482071d45",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["76c7d7a6-f30c-47f7-a6e4-cecdc5bf5a6c"]
+  }],
+  "urls": ["https://subsplash.bamboohr.com/"],
+  "plugins": []
+}
