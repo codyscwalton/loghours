@@ -9,6 +9,10 @@ Homebrew:
 
 > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+ZSH:
+
+> sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 node (the Node.js programming language) version 8 or 10
 
 npm (the NodeJS package manager) which typically gets installed with node
